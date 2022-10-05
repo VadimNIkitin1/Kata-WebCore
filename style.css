@@ -1,0 +1,130 @@
+body {
+  font-family: "TT Lakes";
+}
+.main {
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  height: 88px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #b8ffec;
+  padding: 18px 16px;
+  column-gap: 20px;
+}
+.nav__logoMenu {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.nav__check-Menu {
+  display: flex;
+  column-gap: 16px;
+}
+
+.none {
+  display: none;
+}
+
+.nav__btn {
+  width: 40px;
+  height: 40px;
+}
+
+.logo {
+  padding-right: 16px;
+  position: relative;
+}
+.logo::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: 2px;
+  height: 32px;
+  background-color: #eaeaea;
+}
+.nav__addMenu {
+  display: none;
+}
+
+.main {
+  padding: 24px 0 40px 0;
+  background-color: #f8f8f8;
+}
+
+.main__title {
+  padding-left: 16px;
+  font-size: 28px;
+  font-weight: 700;
+  width: 304px;
+  height: 40px;
+  white-space: nowrap;
+  position: relative;
+  margin-bottom: 24px;
+}
+.main__title::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 40px;
+  background-color: #41f6d7;
+}
+
+.services {
+  margin-left: 16px;
+  margin-bottom: 24px;
+  overflow: auto;
+  display: flex;
+}
+.services__item {
+  color: #7e7e82;
+  white-space: nowrap;
+  padding: 8px 16px 8px 16px;
+  line-height: 24px;
+}
+.marked {
+  background-color: #ffffff;
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
+}
+.description {
+  padding: 0 16px 16px 16px;
+  width: 310px;
+}
+.description__text {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 18px;
+
+  margin-bottom: 16px;
+}
+
+.description__text-next {
+  font-weight: 500;
+  position: relative;
+  padding-left: 28px;
+}
+.description__text-next::before {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 8px;
+  width: 7px;
+  height: 10px;
+  background-image: url("./img/icon.svg");
+  background-repeat: no-repeat;
+}
+
+.description__new-text {
+  width: 490px;
+  padding-bottom: 14px;
+  font-size: 14px;
+}
+.nav__check-Menu-add {
+  display: none;
+}
