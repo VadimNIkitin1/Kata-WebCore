@@ -1,3 +1,7 @@
+@import './reset.scss';
+@import './adaptive768px.scss';
+@import './adaptive1120px.scss';
+
 $black: #1b1c21;
 $pink: #ff3e79;
 $aqua: #41f6d7;
@@ -8,7 +12,7 @@ $titlecolor: #f8f8f8;
 $aquawhite: #b8ffec;
 body,
 html {
-  font-family: "TT Lakes";
+  font-family: 'TT Lakes';
   height: 100%;
 }
 .main {
@@ -98,7 +102,7 @@ html {
   padding-right: 16px;
   position: relative;
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     top: 10px;
     right: 0;
@@ -125,7 +129,7 @@ html {
     position: relative;
     margin-bottom: 24px;
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       top: 0;
       left: 0;
@@ -179,12 +183,12 @@ html {
   padding-left: 28px;
   &::before {
     position: absolute;
-    content: "";
+    content: '';
     top: 5px;
     left: 10px;
     width: 7px;
     height: 10px;
-    background-image: url("./img/icon.svg");
+    background-image: url('./img/icon.svg');
     background-repeat: no-repeat;
   }
 }
@@ -261,7 +265,7 @@ html {
   color: #7e7e82;
   position: relative;
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: -5px;
     left: -24px;
@@ -376,14 +380,14 @@ html {
     width: 200px;
     text-align: left;
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       right: 80px;
       bottom: 5px;
       width: 7px;
       height: 10px;
       background-repeat: no-repeat;
-      background-image: url("./img/ic/Line.svg");
+      background-image: url('./img/ic/Line.svg');
     }
   }
   &__title-table {
@@ -402,14 +406,14 @@ html {
   width: 119px;
   height: 32px;
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     left: 96px;
     bottom: 11px;
     width: 7px;
     height: 10px;
     background-repeat: no-repeat;
-    background-image: url("./img/ic/dropdown.svg");
+    background-image: url('./img/ic/dropdown.svg');
   }
 }
 .grey {
@@ -471,7 +475,7 @@ html {
     margin-bottom: 24px;
     &::before {
       position: absolute;
-      content: "";
+      content: '';
       top: 100px;
       left: 0;
       width: 3px;
@@ -511,14 +515,14 @@ html {
   &__btn {
     width: 136px;
     &::after {
-      content: "";
+      content: '';
       position: absolute;
       left: 105px;
       bottom: 11px;
       width: 7px;
       height: 10px;
       background-repeat: no-repeat;
-      background-image: url("./img/ic/dropdown.svg");
+      background-image: url('./img/ic/dropdown.svg');
     }
   }
 }
