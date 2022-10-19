@@ -1,0 +1,1517 @@
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-Italic.eot);
+    src: local('TT Lakes Italic'), local('TTLakes-Italic'),
+        url(./fonts/TTLakes-Italic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-Italic.woff) format('woff'),
+        url(./fonts/TTLakes-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-ExtraLight.eot);
+    src: local('TT Lakes Condensed ExtraLight'), local('TTLakesCondensed-ExtraLight'),
+        url(./fonts/TTLakesCondensed-ExtraLight.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-ExtraLight.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-ExtraLight.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-Regular.eot);
+    src: local('TT Lakes Compressed Regular'), local('TTLakesCompressed-Regular'),
+        url(./fonts/TTLakesCompressed-Regular.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-Regular.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-ThinItalic.eot);
+    src: local('TT Lakes Compressed Thin Italic'), local('TTLakesCompressed-ThinItalic'),
+        url(./fonts/TTLakesCompressed-ThinItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-ThinItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-ThinItalic.ttf) format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-Medium.eot);
+    src: local('TT Lakes Condensed Medium'), local('TTLakesCondensed-Medium'),
+        url(./fonts/TTLakesCondensed-Medium.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-Medium.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-ExtraBoldItalic.eot);
+    src: local('TT Lakes Compressed ExtraBold Italic'), local('TTLakesCompressed-ExtraBoldItalic'),
+        url(./fonts/TTLakesCompressed-ExtraBoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-ExtraBoldItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-ExtraBoldItalic.ttf) format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-ExtraLightItalic.eot);
+    src: local('TT Lakes ExtraLight Italic'), local('TTLakes-ExtraLightItalic'),
+        url(./fonts/TTLakes-ExtraLightItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-ExtraLightItalic.woff) format('woff'),
+        url(./fonts/TTLakes-ExtraLightItalic.ttf) format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-LightItalic.eot);
+    src: local('TT Lakes Light Italic'), local('TTLakes-LightItalic'),
+        url(./fonts/TTLakes-LightItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-LightItalic.woff) format('woff'),
+        url(./fonts/TTLakes-LightItalic.ttf) format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-Thin.eot);
+    src: local('TT Lakes Thin'), local('TTLakes-Thin'),
+        url(./fonts/TTLakes-Thin.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-Thin.woff) format('woff'),
+        url(./fonts/TTLakes-Thin.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-DemiBoldItalic.eot);
+    src: local('TT Lakes DemiBold Italic'), local('TTLakes-DemiBoldItalic'),
+        url(./fonts/TTLakes-DemiBoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-DemiBoldItalic.woff) format('woff'),
+        url(./fonts/TTLakes-DemiBoldItalic.ttf) format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-Black.eot);
+    src: local('TT Lakes Condensed Black'), local('TTLakesCondensed-Black'),
+        url(./fonts/TTLakesCondensed-Black.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-Black.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-Black.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-LightItalic.eot);
+    src: local('TT Lakes Condensed Light Italic'), local('TTLakesCondensed-LightItalic'),
+        url(./fonts/TTLakesCondensed-LightItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-LightItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-LightItalic.ttf) format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-DemiBold.eot);
+    src: local('TT Lakes Condensed DemiBold'), local('TTLakesCondensed-DemiBold'),
+        url(./fonts/TTLakesCondensed-DemiBold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-DemiBold.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-DemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-ExtraBold.eot);
+    src: local('TT Lakes Compressed ExtraBold'), local('TTLakesCompressed-ExtraBold'),
+        url(./fonts/TTLakesCompressed-ExtraBold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-ExtraBold.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-ExtraBoldItalic.eot);
+    src: local('TT Lakes ExtraBold Italic'), local('TTLakes-ExtraBoldItalic'),
+        url(./fonts/TTLakes-ExtraBoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-ExtraBoldItalic.woff) format('woff'),
+        url(./fonts/TTLakes-ExtraBoldItalic.ttf) format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-ExtraLight.eot);
+    src: local('TT Lakes ExtraLight'), local('TTLakes-ExtraLight'),
+        url(./fonts/TTLakes-ExtraLight.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-ExtraLight.woff) format('woff'),
+        url(./fonts/TTLakes-ExtraLight.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-Bold.eot);
+    src: local('TT Lakes Condensed Bold'), local('TTLakesCondensed-Bold'),
+        url(./fonts/TTLakesCondensed-Bold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-Bold.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-ThinItalic.eot);
+    src: local('TT Lakes Condensed Thin Italic'), local('TTLakesCondensed-ThinItalic'),
+        url(./fonts/TTLakesCondensed-ThinItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-ThinItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-ThinItalic.ttf) format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-ExtraBoldItalic.eot);
+    src: local('TT Lakes Condensed ExtraBold Italic'), local('TTLakesCondensed-ExtraBoldItalic'),
+        url(./fonts/TTLakesCondensed-ExtraBoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-ExtraBoldItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-ExtraBoldItalic.ttf) format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-Medium.eot);
+    src: local('TT Lakes Compressed Medium'), local('TTLakesCompressed-Medium'),
+        url(./fonts/TTLakesCompressed-Medium.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-Medium.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-Thin.eot);
+    src: local('TT Lakes Condensed Thin'), local('TTLakesCondensed-Thin'),
+        url(./fonts/TTLakesCondensed-Thin.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-Thin.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-Thin.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-Italic.eot);
+    src: local('TT Lakes Compressed Italic'), local('TTLakesCompressed-Italic'),
+        url(./fonts/TTLakesCompressed-Italic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-Italic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-Light.eot);
+    src: local('TT Lakes Compressed Light'), local('TTLakesCompressed-Light'),
+        url(./fonts/TTLakesCompressed-Light.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-Light.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-LightItalic.eot);
+    src: local('TT Lakes Compressed Light Italic'), local('TTLakesCompressed-LightItalic'),
+        url(./fonts/TTLakesCompressed-LightItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-LightItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-LightItalic.ttf) format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-Regular.eot);
+    src: local('TT Lakes Condensed Regular'), local('TTLakesCondensed-Regular'),
+        url(./fonts/TTLakesCondensed-Regular.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-Regular.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-Light.eot);
+    src: local('TT Lakes Condensed Light'), local('TTLakesCondensed-Light'),
+        url(./fonts/TTLakesCondensed-Light.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-Light.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-Bold.eot);
+    src: local('TT Lakes Bold'), local('TTLakes-Bold'),
+        url(./fonts/TTLakes-Bold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-Bold.woff) format('woff'),
+        url(./fonts/TTLakes-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-DemiBold.eot);
+    src: local('TT Lakes DemiBold'), local('TTLakes-DemiBold'),
+        url(./fonts/TTLakes-DemiBold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-DemiBold.woff) format('woff'),
+        url(./fonts/TTLakes-DemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-Thin.eot);
+    src: local('TT Lakes Compressed Thin'), local('TTLakesCompressed-Thin'),
+        url(./fonts/TTLakesCompressed-Thin.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-Thin.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-Thin.ttf) format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-Black.eot);
+    src: local('TT Lakes Black'), local('TTLakes-Black'),
+        url(./fonts/TTLakes-Black.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-Black.woff) format('woff'),
+        url(./fonts/TTLakes-Black.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-MediumItalic.eot);
+    src: local('TT Lakes Medium Italic'), local('TTLakes-MediumItalic'),
+        url(./fonts/TTLakes-MediumItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-MediumItalic.woff) format('woff'),
+        url(./fonts/TTLakes-MediumItalic.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-ExtraBold.eot);
+    src: local('TT Lakes Condensed ExtraBold'), local('TTLakesCondensed-ExtraBold'),
+        url(./fonts/TTLakesCondensed-ExtraBold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-ExtraBold.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-ExtraLightItalic.eot);
+    src: local('TT Lakes Condensed ExtraLight Italic'), local('TTLakesCondensed-ExtraLightItalic'),
+        url(./fonts/TTLakesCondensed-ExtraLightItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-ExtraLightItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-ExtraLightItalic.ttf) format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-Medium.eot);
+    src: local('TT Lakes Medium'), local('TTLakes-Medium'),
+        url(./fonts/TTLakes-Medium.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-Medium.woff) format('woff'),
+        url(./fonts/TTLakes-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-DemiBoldItalic.eot);
+    src: local('TT Lakes Condensed DemiBold Italic'), local('TTLakesCondensed-DemiBoldItalic'),
+        url(./fonts/TTLakesCondensed-DemiBoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-DemiBoldItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-DemiBoldItalic.ttf) format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-BoldItalic.eot);
+    src: local('TT Lakes Compressed Bold Italic'), local('TTLakesCompressed-BoldItalic'),
+        url(./fonts/TTLakesCompressed-BoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-BoldItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-ExtraLightItalic.eot);
+    src: local('TT Lakes Compressed ExtraLight Italic'), local('TTLakesCompressed-ExtraLightItalic'),
+        url(./fonts/TTLakesCompressed-ExtraLightItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-ExtraLightItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-ExtraLightItalic.ttf) format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-Regular.eot);
+    src: local('TT Lakes Regular'), local('TTLakes-Regular'),
+        url(./fonts/TTLakes-Regular.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-Regular.woff) format('woff'),
+        url(./fonts/TTLakes-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-BoldItalic.eot);
+    src: local('TT Lakes Bold Italic'), local('TTLakes-BoldItalic'),
+        url(./fonts/TTLakes-BoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-BoldItalic.woff) format('woff'),
+        url(./fonts/TTLakes-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-MediumItalic.eot);
+    src: local('TT Lakes Condensed Medium Italic'), local('TTLakesCondensed-MediumItalic'),
+        url(./fonts/TTLakesCondensed-MediumItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-MediumItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-MediumItalic.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-Italic.eot);
+    src: local('TT Lakes Condensed Italic'), local('TTLakesCondensed-Italic'),
+        url(./fonts/TTLakesCondensed-Italic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-Italic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-ThinItalic.eot);
+    src: local('TT Lakes Thin Italic'), local('TTLakes-ThinItalic'),
+        url(./fonts/TTLakes-ThinItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-ThinItalic.woff) format('woff'),
+        url(./fonts/TTLakes-ThinItalic.ttf) format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-DemiBold.eot);
+    src: local('TT Lakes Compressed DemiBold'), local('TTLakesCompressed-DemiBold'),
+        url(./fonts/TTLakesCompressed-DemiBold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-DemiBold.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-DemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-BlackItalic.eot);
+    src: local('TT Lakes Black Italic'), local('TTLakes-BlackItalic'),
+        url(./fonts/TTLakes-BlackItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-BlackItalic.woff) format('woff'),
+        url(./fonts/TTLakes-BlackItalic.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-Bold.eot);
+    src: local('TT Lakes Compressed Bold'), local('TTLakesCompressed-Bold'),
+        url(./fonts/TTLakesCompressed-Bold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-Bold.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-BlackItalic.eot);
+    src: local('TT Lakes Condensed Black Italic'), local('TTLakesCondensed-BlackItalic'),
+        url(./fonts/TTLakesCondensed-BlackItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-BlackItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-BlackItalic.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-MediumItalic.eot);
+    src: local('TT Lakes Compressed Medium Italic'), local('TTLakesCompressed-MediumItalic'),
+        url(./fonts/TTLakesCompressed-MediumItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-MediumItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-MediumItalic.ttf) format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Condensed';
+    src: url(./fonts/TTLakesCondensed-BoldItalic.eot);
+    src: local('TT Lakes Condensed Bold Italic'), local('TTLakesCondensed-BoldItalic'),
+        url(./fonts/TTLakesCondensed-BoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCondensed-BoldItalic.woff) format('woff'),
+        url(./fonts/TTLakesCondensed-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-ExtraLight.eot);
+    src: local('TT Lakes Compressed ExtraLight'), local('TTLakesCompressed-ExtraLight'),
+        url(./fonts/TTLakesCompressed-ExtraLight.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-ExtraLight.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-ExtraLight.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-ExtraBold.eot);
+    src: local('TT Lakes ExtraBold'), local('TTLakes-ExtraBold'),
+        url(./fonts/TTLakes-ExtraBold.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-ExtraBold.woff) format('woff'),
+        url(./fonts/TTLakes-ExtraBold.ttf) format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-DemiBoldItalic.eot);
+    src: local('TT Lakes Compressed DemiBold Italic'), local('TTLakesCompressed-DemiBoldItalic'),
+        url(./fonts/TTLakesCompressed-DemiBoldItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-DemiBoldItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-DemiBoldItalic.ttf) format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-BlackItalic.eot);
+    src: local('TT Lakes Compressed Black Italic'), local('TTLakesCompressed-BlackItalic'),
+        url(./fonts/TTLakesCompressed-BlackItalic.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-BlackItalic.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-BlackItalic.ttf) format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url(./fonts/TTLakes-Light.eot);
+    src: local('TT Lakes Light'), local('TTLakes-Light'),
+        url(./fonts/TTLakes-Light.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakes-Light.woff) format('woff'),
+        url(./fonts/TTLakes-Light.ttf) format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Compressed';
+    src: url(./fonts/TTLakesCompressed-Black.eot);
+    src: local('TT Lakes Compressed Black'), local('TTLakesCompressed-Black'),
+        url(./fonts/TTLakesCompressed-Black.eot?#iefix) format('embedded-opentype'),
+        url(./fonts/TTLakesCompressed-Black.woff) format('woff'),
+        url(./fonts/TTLakesCompressed-Black.ttf) format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+body,
+html {
+  font-family: 'TT Lakes';
+  height: 100%; }
+
+.main {
+  height: 100%; }
+
+.none {
+  display: none; }
+
+.swiper {
+  width: 320px;
+  height: 116px; }
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 10px; }
+
+.swiper-pagination-bullet.swiper-pagination-bullet {
+  background: #dddddd;
+  width: 12px;
+  height: 12px; }
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #b5b6bc;
+  width: 13px;
+  height: 13px; }
+
+.swiper-type-tech {
+  width: 320px;
+  height: 204px; }
+
+.swiper-type-tech-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 5px; }
+
+.swiper-pricelist {
+  width: 320px;
+  height: 228px; }
+
+.swiper-pricelist-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: 5px; }
+
+.big-screen-container {
+  position: relative;
+  height: 100%;
+  background-color: #7e7e82; }
+
+.nav {
+  display: flex;
+  height: 88px;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #b8ffec;
+  padding: 18px 16px;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  background-color: #ffffff; }
+  .nav__logoMenu {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 16px;
+         column-gap: 16px; }
+  .nav__check-Menu {
+    display: flex;
+    -moz-column-gap: 16px;
+         column-gap: 16px; }
+  .nav__btn {
+    width: 40px;
+    height: 40px; }
+  .nav__addMenu {
+    display: none; }
+  .nav__check-Menu-add {
+    display: none; }
+
+.logo {
+  padding-right: 16px;
+  position: relative; }
+  .logo::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 2px;
+    height: 32px;
+    background-color: #eaeaea; }
+
+.main {
+  position: relative;
+  padding: 24px 0 40px 0;
+  background-color: #f8f8f8;
+  margin-bottom: 40px; }
+  .main__title {
+    padding-left: 16px;
+    font-size: 28px;
+    font-weight: 700;
+    width: 304px;
+    height: 40px;
+    white-space: nowrap;
+    position: relative;
+    margin-bottom: 24px; }
+    .main__title::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 40px;
+      background-color: #41f6d7; }
+
+.services {
+  margin-left: 16px;
+  margin-bottom: 24px;
+  overflow: auto;
+  display: flex; }
+  .services__item {
+    color: #7e7e82;
+    white-space: nowrap;
+    padding: 8px 16px 8px 16px;
+    line-height: 24px;
+    cursor: pointer; }
+
+.marked {
+  background-color: #ffffff;
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
+  padding: 6px 14px 6px 14px;
+  transition: 0.5s; }
+
+.description {
+  padding: 0 16px 16px 16px;
+  width: 310px; }
+  .description__text {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    line-height: 18px;
+    margin-bottom: 16px; }
+  .description__new-text {
+    width: 100%;
+    padding-bottom: 14px;
+    font-size: 14px; }
+
+.desc_img {
+  padding-bottom: 24px; }
+
+.btn-all {
+  font-weight: 500;
+  position: relative;
+  padding-left: 28px; }
+  .btn-all::before {
+    position: absolute;
+    content: '';
+    top: 5px;
+    left: 10px;
+    width: 7px;
+    height: 10px;
+    background-image: url(./static/icon.svg);
+    background-repeat: no-repeat; }
+
+.add-brands {
+  display: none; }
+
+.add-type-tech {
+  display: none; }
+
+.mob-menu {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 2; }
+  .mob-menu__container {
+    width: 320px;
+    background-color: #ffffff;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2); }
+  .mob-menu__header {
+    display: flex;
+    align-items: center;
+    height: 93px;
+    padding: 24px 16px; }
+  .mob-menu__btn-cls {
+    margin-right: 16px; }
+  .mob-menu__logo {
+    margin-right: 98px; }
+  .mob-menu__main {
+    padding: 24px 0 0 24px;
+    flex: 1 1 auto;
+    margin-bottom: 20px; }
+  .mob-menu__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px; }
+  .mob-menu__item {
+    cursor: pointer;
+    transition: 0.3s; }
+    .mob-menu__item:hover {
+      color: #ff3e79; }
+  .mob-menu__footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 24px 32px 24px; }
+  .mob-menu__contact-list {
+    display: flex;
+    -moz-column-gap: 16px;
+         column-gap: 16px;
+    padding-bottom: 16px; }
+  .mob-menu__contacts-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-bottom: 8px; }
+
+.mob-marked {
+  color: #7e7e82;
+  position: relative; }
+  .mob-marked::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -24px;
+    width: 4px;
+    height: 32px;
+    background-color: #41f6d7; }
+
+.cont-mail {
+  color: #1b1c21; }
+
+.cont-tel {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1b1c21; }
+
+.title-services {
+  width: 100%;
+  height: 80px;
+  padding: 16px 16px 16px 16px;
+  background: linear-gradient(90deg, #f8f8f8 0%, #ffffff 98.61%);
+  border-top: 1px solid #41f6d7;
+  color: #7e7e82;
+  text-transform: uppercase;
+  margin-bottom: 16px; }
+
+.repair-brands {
+  background-color: #f8f8f8; }
+
+.swiper-wrapper {
+  padding: 0 0 0 16px; }
+
+.swiper-slide.repair-brands__item {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 16px;
+  background-color: #ffffff;
+  width: 240px;
+  height: 72px;
+  padding: 16px 16px 16px 16px;
+  margin: 0px 0px 24px 0px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px; }
+
+.repair-type-tech {
+  padding-bottom: 12px;
+  background-color: #f8f8f8; }
+  .repair-type-tech__item_img {
+    text-align: right; }
+  .repair-type-tech__item_text {
+    font-weight: 500; }
+
+.swiper-slide.repair-type-tech__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 240px;
+  height: 160px;
+  background-color: #ffffff;
+  padding: 16px;
+  border: 1px solid #eaeaea;
+  border-radius: 6px; }
+
+.swiper-wrapper.pricelist-wrapper {
+  padding-left: 8px; }
+
+.swiper-slide.pricelist__item {
+  width: 260px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #eaeaea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 16px; }
+
+.pricelist__title {
+  height: 56px; }
+
+.pricelist__text-items {
+  margin-bottom: 40px;
+  padding: 16px 16px 16px 16px; }
+
+.pricelist__text {
+  width: 260px;
+  font-size: 14px;
+  color: #1b1c21;
+  margin: 0; }
+
+.pricelist__btn {
+  margin-top: 10px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  width: 200px;
+  text-align: left; }
+  .pricelist__btn::after {
+    content: '';
+    position: absolute;
+    right: 80px;
+    bottom: 5px;
+    width: 7px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-image: url(./static/Line.svg); }
+
+.pricelist__title-table {
+  display: none; }
+
+.order-btn {
+  position: relative;
+  padding: 4px 40px 4px 12px;
+  color: #ffffff;
+  background-color: #ff3e79;
+  border-radius: 16px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  width: 119px;
+  height: 32px; }
+  .order-btn::after {
+    content: '';
+    position: absolute;
+    left: 96px;
+    bottom: 11px;
+    width: 7px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-image: url(./static/dropdown.svg); }
+
+.grey {
+  color: #7e7e82; }
+
+.black {
+  color: #1b1c21; }
+
+.item__term-btn-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.footer {
+  background-color: #f8f8f8;
+  border-top: 1px solid #b8ffec;
+  padding: 16px 16px;
+  color: #7e7e82; }
+  .footer__items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    font-size: 14px;
+    text-align: center;
+    width: 300px; }
+  .footer__item-text-dev {
+    width: 100%; }
+
+.modal__container {
+  position: absolute;
+  z-index: 101;
+  padding: 24px 16px 0 16px;
+  width: 320px;
+  background-color: #ffffff;
+  text-align: right;
+  left: 0;
+  top: 0;
+  height: 100%; }
+  .modal__container a {
+    color: #ff3e79; }
+
+.modal__btn-cls {
+  position: relative;
+  right: 248px;
+  margin-bottom: 40px; }
+
+.modal__title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 24px; }
+  .modal__title::before {
+    position: absolute;
+    content: '';
+    top: 100px;
+    left: 0;
+    width: 3px;
+    height: 40px;
+    background-color: #b8ffec; }
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px; }
+  .modal__form input {
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    padding: 12px 0 12px 16px; }
+  .modal__form textarea {
+    resize: none;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    padding: 12px 0 0 16px;
+    height: 118px; }
+    .modal__form textarea:focus {
+      outline: none; }
+
+.modal__text {
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 24px;
+  width: 280px;
+  line-height: 16px; }
+
+.modal__btn {
+  width: 136px; }
+  .modal__btn::after {
+    content: '';
+    position: absolute;
+    left: 105px;
+    bottom: 11px;
+    width: 7px;
+    height: 10px;
+    background-repeat: no-repeat;
+    background-image: url(./static/dropdown.svg); }
+
+/* Reset and base styles  */
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none; }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+:focus,
+:active {
+  /*outline: none;*/ }
+
+a:focus,
+a:active {
+  /* outline: none;*/ }
+
+/* Links */
+a,
+a:link,
+a:visited {
+  /* color: inherit; */
+  text-decoration: none;
+  /* display: inline-block; */ }
+
+a:hover {
+  /* color: inherit; */
+  text-decoration: none; }
+
+/* Common */
+aside,
+nav,
+footer,
+header,
+section,
+main {
+  display: block; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit; }
+
+ul,
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+img,
+svg {
+  max-width: 100%;
+  height: auto; }
+
+address {
+  font-style: normal; }
+
+/* Form */
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent; }
+
+input::-ms-clear {
+  display: none; }
+
+button,
+input[type="submit"] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer; }
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+label {
+  cursor: pointer; }
+
+legend {
+  display: block; }
+
+@media (min-width: 768px) {
+  .desc_img {
+    display: flex;
+    -moz-column-gap: 48px;
+         column-gap: 48px;
+    vertical-align: middle;
+    width: 100%;
+    padding: 0 24px;
+    justify-content: space-between; }
+  .section-img {
+    width: 360px; }
+    .section-img img {
+      width: 100%; }
+  .description {
+    padding: 0; }
+    .description__text {
+      width: 312px; }
+    .description__new-text {
+      width: 312px; }
+  .btn-all {
+    display: block; }
+  .nav {
+    justify-content: space-between;
+    background-color: #ffffff; }
+    .nav__logoMenu {
+      display: flex;
+      align-items: center;
+      padding-left: 24px; }
+    .nav__addMenu {
+      display: flex;
+      position: relative;
+      padding-right: 20px;
+      -moz-column-gap: 16px;
+           column-gap: 16px; }
+      .nav__addMenu::after {
+        content: '';
+        position: absolute;
+        top: 5px;
+        right: 0px;
+        width: 2px;
+        height: 32px;
+        background-color: #eaeaea; }
+  .new-Add-Menu {
+    display: flex;
+    position: relative;
+    -moz-column-gap: 22px;
+         column-gap: 22px; }
+  .logo {
+    padding-left: 16px;
+    position: relative; }
+    .logo::after {
+      display: none; }
+    .logo::before {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 0;
+      width: 2px;
+      height: 32px;
+      background-color: #eaeaea; }
+  .title-services {
+    margin-bottom: 24px;
+    height: 56px;
+    padding: 16px 24px 16px 24px; }
+  .swiper {
+    width: 100%;
+    height: 100%; }
+    .swiper-wrapper {
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0 0 0 24px; }
+  .swiper-slide.repair-brands__item {
+    width: 224px;
+    height: 72px;
+    margin: 0 24px 16px 0; }
+  .swiper-wrapper.brands-wrap {
+    height: 175px; }
+  .repair-brands {
+    padding-bottom: 32px; }
+    .repair-brands__lists {
+      padding: 0; }
+  .add-brands {
+    margin-left: 20px; }
+  .swiper-wrapper.type-tech-wrap {
+    height: 170px; }
+  .swiper-slide.repair-type-tech__item {
+    width: 224px;
+    height: 160px;
+    margin: 0 24px 16px 0; }
+  .repair-type-tech {
+    padding-bottom: 32px;
+    background-color: #f8f8f8; }
+  .add-type-tech {
+    margin-left: 20px; }
+  .swiper-pricelist.swiper {
+    padding: 0 0 0 24px; }
+  .swiper-wrapper.pricelist-wrap {
+    flex-direction: column;
+    background-color: #fff;
+    padding: 0 0px;
+    width: 720px;
+    border-radius: 6px;
+    font-weight: 400; }
+  .swiper-slide.pricelist__item {
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+    align-items: center;
+    font-size: 14px;
+    padding: 16px 0px 16px 0px;
+    margin-left: 17px; }
+  .swiper-slide.pricelist__item:nth-last-child(1) {
+    border-bottom: none; }
+  .pricelist__title-table {
+    display: flex;
+    font-size: 14px;
+    color: #7e7e82;
+    padding: 0 0 16px 40px; }
+  .pricelist__text-items {
+    margin-bottom: 47px;
+    padding: 16px 16px 0px 24px; }
+  .pricelist__text {
+    width: 421px; }
+  .pricelist__btn {
+    width: 316px; }
+    .pricelist__btn::after {
+      bottom: 5px;
+      right: -5px; }
+  .title-table__serv {
+    margin-right: 246px; }
+  .title-table__price {
+    margin-right: 61px; }
+  .rep-serv__title {
+    display: none; }
+  .rep-serv__value {
+    width: 350px; }
+  .price__title {
+    display: none; }
+  .price__value {
+    width: 74px; }
+  .term-btn__title {
+    display: none; }
+  .term-btn__value {
+    width: 81px; }
+  .item__term-btn-cont {
+    align-items: center;
+    -moz-column-gap: 20px;
+         column-gap: 20px; }
+  .order-btn {
+    margin-right: 16px; }
+  .footer__items {
+    margin-top: 32px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between; }
+  .footer__item-text-dev {
+    width: 220px;
+    text-align: left; }
+  .footer__item-text-conf {
+    width: 215px; }
+  .footer__item-text-info {
+    width: 213px;
+    text-align: right; }
+  .modal {
+    position: absolute;
+    z-index: 100;
+    min-width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    min-height: 100%; }
+    .modal__container {
+      width: 440px;
+      left: 1000px;
+      top: 0; }
+      .modal__container a {
+        color: #ff3e79; }
+    .modal__btn-cls {
+      position: absolute;
+      top: 32px;
+      right: 473px; }
+    .modal__title {
+      font-size: 24px;
+      font-weight: 600;
+      text-align: left;
+      margin-bottom: 24px; }
+      .modal__title::before {
+        position: absolute;
+        content: '';
+        top: 35px;
+        left: 0;
+        width: 3px;
+        height: 40px;
+        background-color: #41f6d7; }
+    .modal__form {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 16px; }
+      .modal__form input {
+        border: 1px solid #eaeaea;
+        border-radius: 6px;
+        margin-bottom: 16px;
+        padding: 12px 0 12px 16px; }
+      .modal__form textarea {
+        resize: none;
+        border: 1px solid #eaeaea;
+        border-radius: 6px;
+        margin-bottom: 16px;
+        padding: 12px 0 0 16px;
+        height: 118px; }
+        .modal__form textarea:focus {
+          outline: none; }
+    .modal__text {
+      text-align: left;
+      font-size: 14px;
+      margin-bottom: 24px; }
+    .modal__btn {
+      width: 136px; }
+      .modal__btn::after {
+        content: '';
+        position: absolute;
+        left: 105px;
+        bottom: 11px;
+        width: 7px;
+        height: 10px;
+        background-repeat: no-repeat;
+        background-image: url(./static/dropdown.svg); }
+  .modal__container:hover::before {
+    cursor: pointer; } }
+
+@media (min-width: 1120px) {
+  .description {
+    padding: 0; }
+    .description__text {
+      width: 490px; }
+    .description__new-text {
+      width: 490px; }
+  .section-img {
+    width: 532px; }
+  .desc_img {
+    width: 100%;
+    justify-content: space-between; }
+  .main__title {
+    margin-bottom: 8px;
+    position: relative; }
+  .serv-btn {
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap; }
+  .nav {
+    display: none; }
+    .nav__check-Menu-add {
+      display: flex;
+      -moz-column-gap: 30px;
+           column-gap: 30px;
+      padding: 0 30px; }
+    .nav__btn-add img {
+      vertical-align: middle;
+      padding: 8px; }
+  .big-screen-container {
+    display: flex;
+    height: 100vh; }
+  .middle-screen-container {
+    width: 100%; }
+  .mob-menu {
+    position: relative;
+    width: 320px;
+    display: block; }
+    .mob-menu__container {
+      box-shadow: none; }
+    .mob-menu__btn-cls {
+      display: none; }
+  .repair-brands {
+    padding-bottom: 50px; }
+  .swiper-slide.repair-brands__item {
+    width: 240px;
+    margin: 0 32px 16px 0; }
+  .pricelist {
+    background-color: #f8f8f8; }
+  .swiper-pricelist.swiper {
+    padding: 0 0 0 32px; }
+  .swiper-wrapper.pricelist-wrap {
+    flex-direction: column;
+    background-color: #fff;
+    width: 1056px;
+    border-radius: 6px;
+    font-weight: 400; }
+  .swiper-slide.pricelist__item {
+    border-radius: 6px;
+    border-bottom: 1px solid #eaeaea;
+    align-items: center;
+    font-size: 14px;
+    padding: 24px 0px 16px 0px;
+    margin-left: 24px; }
+  .term-btn__value {
+    margin-right: 111px; }
+  .title-table__serv {
+    margin-right: 368px; }
+  .title-table__price {
+    margin-right: 180px; }
+  .pricelist__title-table {
+    padding-left: 56px; }
+  .pricelist__text-items {
+    margin: 0;
+    padding: 32px 0 50px 32px; }
+  .footer__items {
+    margin: 0; }
+  .modal {
+    position: absolute;
+    z-index: 100;
+    min-width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    min-height: 100%; }
+    .modal__container {
+      width: 440px;
+      left: 1000px;
+      top: 0; }
+      .modal__container a {
+        color: #ff3e79; }
+    .modal__btn-cls {
+      position: absolute;
+      top: 32px;
+      right: 473px; }
+    .modal__title {
+      font-size: 24px;
+      font-weight: 600;
+      text-align: left;
+      margin-bottom: 24px; }
+      .modal__title::before {
+        position: absolute;
+        content: '';
+        top: 35px;
+        left: 0;
+        width: 3px;
+        height: 40px;
+        background-color: #41f6d7; }
+    .modal__form {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 16px; }
+      .modal__form input {
+        border: 1px solid #eaeaea;
+        border-radius: 6px;
+        margin-bottom: 16px;
+        padding: 12px 0 12px 16px; }
+      .modal__form textarea {
+        resize: none;
+        border: 1px solid #eaeaea;
+        border-radius: 6px;
+        margin-bottom: 16px;
+        padding: 12px 0 0 16px;
+        height: 118px; }
+        .modal__form textarea:focus {
+          outline: none; }
+    .modal__text {
+      text-align: left;
+      font-size: 14px;
+      margin-bottom: 24px; }
+    .modal__btn {
+      width: 136px; }
+      .modal__btn::after {
+        content: '';
+        position: absolute;
+        left: 105px;
+        bottom: 11px;
+        width: 7px;
+        height: 10px;
+        background-repeat: no-repeat;
+        background-image: url(./static/dropdown.svg); }
+  .modal__container:hover::before {
+    cursor: pointer; } }
+
+
+/*# sourceMappingURL=style.css.map*/
