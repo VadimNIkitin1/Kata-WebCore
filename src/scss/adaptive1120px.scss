@@ -140,7 +140,7 @@ $aquawhite: #b8ffec;
       margin-bottom: 24px;
       &::before {
         position: absolute;
-        content: "";
+        content: '';
         top: 35px;
         left: 0;
         width: 3px;
@@ -178,14 +178,14 @@ $aquawhite: #b8ffec;
     &__btn {
       width: 136px;
       &::after {
-        content: "";
+        content: '';
         position: absolute;
         left: 105px;
         bottom: 11px;
         width: 7px;
         height: 10px;
         background-repeat: no-repeat;
-        background-image: url("./img/ic/dropdown.svg");
+        background-image: url('../img/ic/dropdown.svg');
       }
     }
   }

@@ -1,4 +1,4 @@
-import '../src/scss/style.scss'
+import '../scss/style.scss'
 
 const btnCall = document.querySelector('#btn-call')
 const btnFeedback = document.querySelector('#btn-feedback')

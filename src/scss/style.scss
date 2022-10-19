@@ -1,7 +1,3 @@
-@import './reset.scss';
-@import './adaptive768px.scss';
-@import './adaptive1120px.scss';
-
 $black: #1b1c21;
 $pink: #ff3e79;
 $aqua: #41f6d7;
@@ -188,7 +184,7 @@ html {
     left: 10px;
     width: 7px;
     height: 10px;
-    background-image: url('./img/icon.svg');
+    background-image: url('../img/icon.svg');
     background-repeat: no-repeat;
   }
 }
@@ -387,7 +383,7 @@ html {
       width: 7px;
       height: 10px;
       background-repeat: no-repeat;
-      background-image: url('./img/ic/Line.svg');
+      background-image: url('../img/ic/Line.svg');
     }
   }
   &__title-table {
@@ -413,7 +409,7 @@ html {
     width: 7px;
     height: 10px;
     background-repeat: no-repeat;
-    background-image: url('./img/ic/dropdown.svg');
+    background-image: url('../img/ic/dropdown.svg');
   }
 }
 .grey {
@@ -522,7 +518,11 @@ html {
       width: 7px;
       height: 10px;
       background-repeat: no-repeat;
-      background-image: url('./img/ic/dropdown.svg');
+      background-image: url('../img/ic/dropdown.svg');
     }
   }
 }
+@import './reset.scss';
+@import './adaptive768px.scss';
+@import './adaptive1120px.scss';
+@import '../fonts/stylesheet.css';
